@@ -1,0 +1,20 @@
+{
+  "name": "test-eclair",
+  "version": "1.0.0",
+  "description": "Testing pulling in EclairJS-node as an npm dependency.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "eclair-js",
+    "node",
+    "testing",
+    "proof-of-concept"
+  ],
+  "author": "christopherwaldon",
+  "license": "MIT",
+  "dependencies": {
+    "eclairjs": "^0.3.0"
+  }
+}
