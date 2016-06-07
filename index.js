@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-var spark = require('eclairjs/lib/index.js');
+var spark = require('eclairjs');
 
 var sc = new spark.SparkContext("local[*]", "foo");
 
